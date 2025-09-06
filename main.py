@@ -7,6 +7,8 @@ nilai_siswa = { 'Satrio': 90,
                'Nesto': 81}
 
 new_data = [('Toto', 75)]
+del nilai_siswa['Sat']
+
 nilai_siswa.update(new_data)
 
 print(nilai_siswa)
