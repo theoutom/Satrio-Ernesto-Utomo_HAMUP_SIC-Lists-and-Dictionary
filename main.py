@@ -10,3 +10,4 @@ dic_nilai_siswa = { 'Satrio': 90,
 
 lst_nama_siswa.append('Momo: 75')
 lst_nama_siswa.remove('Tio: 79')
+print(lst_nama_siswa)
