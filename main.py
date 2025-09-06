@@ -14,4 +14,4 @@ print(lst_nama_siswa)
 
 print(f"Siswa pertama adalah {lst_nama_siswa[0]}")
 print(f"Siswa terakhir adalah {lst_nama_siswa[-1]}")
-print(f"Tiga siswa terakhir adalah {lst_nama_siswa[-3:-1]}")
+print(f"Tiga siswa terakhir adalah {lst_nama_siswa[-4:-1]}")
