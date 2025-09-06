@@ -1,4 +1,6 @@
-nilai_siswa = { 'Satrio': 90,
+lst_nama_siswa = ['Satrio: 90', 'Tio: 79', 'Sat: 96', 'Utomo: 89', 'Tomo: 83', 'Ernesto: 98', 'Nesto: 81'] 
+
+dic_nilai_siswa = { 'Satrio': 90,
                'Tio': 79,
                'Sat': 96,
                'Utomo': 89,
@@ -6,9 +8,5 @@ nilai_siswa = { 'Satrio': 90,
                'Ernesto': 98,
                'Nesto': 81}
 
-new_data = [('Toto', 75)]
-del nilai_siswa['Sat']
-
-nilai_siswa.update(new_data)
-
-print(nilai_siswa)
+lst_nama_siswa.append('Momo: 75')
+lst_nama_siswa.remove('Tio: 79')
