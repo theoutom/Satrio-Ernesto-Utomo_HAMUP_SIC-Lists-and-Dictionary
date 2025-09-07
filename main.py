@@ -39,5 +39,5 @@ dict_nilai_siswa.pop('Tio')
 print(dict_nilai_siswa)
 
 # Mengganti key 'Tomo' ke key 'Hamup'
-dict_nilai_siswa['Tomo'] = dict_nilai_siswa['Hamup']
+dict_nilai_siswa['Hamup'] = dict_nilai_siswa.pop('Hamup')
 print(dict_nilai_siswa)
